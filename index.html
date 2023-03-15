@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Carnicería</title>
+	<script src="./sesión.js"></script>
+	<!-- add bootstrap stylesheets -->
+	<link rel="stylesheet" href="./css/estilo.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        	<a class="navbar-brand" href="#">Carnicería High Heavens</a>
+        	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        	</button>
+        	<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            	<ul class="navbar-nav">
+                	<li class="nav-item">
+                		<a class="nav-link" href="./pags/inicio.html">Inicio</a>
+                	</li>
+                	<li class="nav-item">
+                    	<a class="nav-link" href="./pags/heavens.html">Productos</a>
+                	</li>
+                	<li class="nav-item">
+                    	<a class="nav-link" href="./pags/contactos.html">Contacto</a>
+                	</li>
+                	<li class="nav-item">
+                    	<a class="nav-link" href="./index.html">Iniciar sesión</a>
+                	</li>
+            	</ul>
+        	</div>
+    	</div>
+	</nav>
+	<div class="container">
+    	<div class="row">
+    		<div class="col-md-6">
+            	<img src="./img/tienda.jpg" alt="Imagen de la tienda" class="w-100">
+        	</div>
+        	<div class="col-md-6">
+        		<h1>Iniciar sesión</h1>
+        		<form id="login-form">
+        			<label for="correo">Correo electrónico:</label>
+                	<input type="email" id="correo" name="correo" required><br>
+                	<label for="contraseña">Contraseña:</label>
+                	<input type="password" id="contraseña" name="contraseña" required><br>
+                	<button type="submit">Iniciar sesión</button>
+            	</form>
+        	</div>
+    	</div>
+    </div><br><br><br><br><br><br><br><br><br>
+    <footer class="footer-expand-lg footer-dark bg-dark">
+    	<div class="left">
+			<p>High Heavens Carnicería</p>
+  		</div>
+  		<div class="right">
+  			<p>2023 &copy; All Rights Reserved.</p>
+ 		 </div>
+	</footer>
+	<!-- Agregar los scripts de Bootstrap al final del documento -->
+	<script src="https://unpkg.com/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
